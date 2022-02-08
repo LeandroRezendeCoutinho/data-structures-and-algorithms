@@ -1,6 +1,6 @@
 const items = WeakMap()
 
-class Stack {
+class WeakMapStack {
     constructor() {
         items.set(this, [])
     }
@@ -15,3 +15,5 @@ class Stack {
         return r
     }
 }
+
+export default WeakMapStack
